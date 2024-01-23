@@ -1,3 +1,7 @@
+#pragma once
+#include "types.h"
+#include "proc.h"
+
 struct buf;
 struct context;
 struct file;
