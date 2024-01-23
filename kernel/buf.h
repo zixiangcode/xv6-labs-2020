@@ -1,3 +1,7 @@
+#pragma once
+#include "types.h"
+#include "sleeplock.h"
+#include "fs.h"
 struct buf {
   int valid;   // has data been read from disk?
   int disk;    // does disk "own" buf?
