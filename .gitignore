@@ -22,3 +22,7 @@ xv6.out*
 submissions/
 ph
 barrier
+.gdb_history
+.cache
+.vscode
+xv6-labs-2020.und
