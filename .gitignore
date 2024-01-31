@@ -15,3 +15,12 @@ mkfs
 kernel/kernel
 user/usys.S
 .gdbinit
+myapi.key
+*-handin.tar.gz
+xv6.out*
+.vagrant/
+submissions/
+.gdb_history
+.cache
+.vscode
+xv6-labs-2020.und
