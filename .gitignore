@@ -20,3 +20,7 @@ myapi.key
 xv6.out*
 .vagrant/
 submissions/
+.gdb_history
+.cache
+.vscode
+xv6-labs-2020.und
