@@ -69,3 +69,14 @@ uint64 sys_uptime(void) {
     release(&tickslock);
     return xticks;
 }
+
+// trace
+uint64 sys_trace(void) {
+    int trace_mask;
+    // 取 a0 寄存器的值赋值给 trace_mask
+    if (argint(0, &trace_mask) < 0) {
+        return -1;
+    }
+    myproc()->trace_mask = trace_mask;
+    return 0;
+}
